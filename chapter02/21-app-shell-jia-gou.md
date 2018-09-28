@@ -10,7 +10,7 @@ App Shell 架构，通俗的理解可以说是页面的架构，即页面的一�
 
 待填充。。。
 
-### 2.1.3 App Shell 怎么开发?
+### 2.1.3 App Shell 怎么开发
 
 App Shell 架构是构建 Progressive Web App 的一种方式，这种应用能可靠且即时地加载到您的用户屏幕上，与本机应用相似。
 
