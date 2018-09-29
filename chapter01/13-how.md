@@ -8,7 +8,7 @@
 
 图 3 --- 服务器浏览器桥梁图  
 
-Service Worker 是 PWA 的功能关键所在，它是服务器端与浏览器端之间的桥梁，PWA 的每一个网络请求都是经过它的处理再返回结果。另外，Service Worker 只能在 https 上运行。由于 Service Worker 可以拦截网络请求并修改网络应答，因此中间人攻击将难以实施。Service Worker 在不使用的时候会停止，然后在需要的时候会重新开启。所以如果有信息需要在两次 Service Worker 中进行传递时，推荐使用 IndexedDB 来保存数据，而不是使用全局变量。Service Worker 广泛使用了 Promise，所以使用者需要对 Promise 有一定对了解。
+Service Worker 是 PWA 的功能关键所在，它是服务器端与浏览器端之间的桥梁，PWA 的每一个网络请求都是经过它的处理再返回结果。另外，Service Worker 只能在 https 上运行。由于 Service Worker 可以拦截网络请求并修改网络应答，因此中间人攻击将难以实施。当然一般浏览器允许调试 Service Worker 的时候 host 为 localhost 或者 127.0.0.1 也是 ok 的。Service Worker 在不使用的时候会停止，然后在需要的时候会重新开启。所以如果有信息需要在两次 Service Worker 中进行传递时，推荐使用 IndexedDB 来保存数据，而不是使用全局变量。Service Worker 广泛使用了 Promise，所以使用者需要对 Promise 有一定对了解。
 
 Service Worker 使得应用可以控制网络请求，可以缓存请求结果来提高性能，并对缓存资源提供离线访问方式。Service Worker 主要依靠 Fetch 和 Cache 这两个 API 来实现应用离线可用的功能，其中前者是获取网络资源的标准实现，后者是应用数据的持久化存储方式。需要强调的是，Cache 是持久化的，并且和浏览器缓存和网络状态没有关系。所以 Cache 也是 PWA 离线可用技术的关键。
 
