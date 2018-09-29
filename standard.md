@@ -14,6 +14,6 @@
 
 - 打开 GitBook Editor 会提示登录，可以选择 GitHub 账号授权登录，或是`do that later`跳过登录
 
-![](./img/0.0.1.jpg)
+![](img/0.0.1.jpg)
 
 - 
