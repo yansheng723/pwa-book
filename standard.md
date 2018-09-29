@@ -76,8 +76,8 @@
         - [ ] fetch API
         - [ ] Service Worker 更新
   - [ ] 如何在 SPA/MPA/SSR 中使用 Service Worker
-		- [ ] SPA/MPA
-		- [ ] SSR
+        - [ ] SPA/MPA
+        - [ ] SSR
   - [ ] 使用 Workbox 快速编写 Service Worker
 - [ ] 用户留存**（唐雷）**
 	- [ ] Web App Manifest 
