@@ -2,7 +2,7 @@
 
 ## 准备工作
 
-- 下载安装 [GitBook Editor]()
+- 下载安装 [GitBook Editor](https://legacy.gitbook.com/editor)
 
 - GitHub 项目代码`clone`到本地
 
