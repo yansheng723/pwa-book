@@ -45,7 +45,7 @@
 
 ## 目录及分工
 
-> 编写完毕后，在此处和[Github issue]()上同步进度。
+> 编写完毕后，在此处和[Github issue](https://github.com/lavas-project/pwa-book/issues/1)上同步进度。
 
 - [ ] PWA 介绍 **(陈永乐)**
 - [ ] 第一个 PWA 站点 **(刘若然)**
