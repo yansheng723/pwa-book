@@ -50,16 +50,16 @@
 - [ ] PWA 介绍 **(陈永乐)**
 - [ ] 第一个 PWA 站点 **(刘若然)**
 - [ ] 设计与体验（重理念轻实战）**(王轶盛)**
-  - [ ] App Shell
-  - [ ] Skeleton
-  - [ ] 动画
+     - [ ] App Shell
+     - [ ] Skeleton
+     - [ ] 动画
 - [ ] 离线与缓存**(黄辉泉、淼江)**
-  - [ ] Service Worker 简介 
-       - [ ] 简介
-       - [ ] 发展史
-       - [ ] 基本特性
-       - [ ] https 与 service worker
-       - [ ] service worker 在浏览器缓存中发生作用的时机（可与其他缓存对比）
+     - [ ] Service Worker 简介 
+          - [ ] 简介
+          - [ ] 发展史
+          - [ ] 基本特性
+          - [ ] https 与 service worker
+          - [ ] service worker 在浏览器缓存中发生作用的时机（可与其他缓存对比）
   - [ ] Service Worker 初探
        - [ ] 生命周期
        - [ ] 注册过程
@@ -80,9 +80,9 @@
        - [ ] SSR
   - [ ] 使用 Workbox 快速编写 Service Worker
 - [ ] 用户留存**（唐雷）**
-  - [ ] Web App Manifest 
-       - [ ] credentials API
-       - [ ] Notification API
+     - [ ] Web App Manifest 
+          - [ ] credentials API
+          - [ ] Notification API
 - [ ] 安全 **（ck & 陈秋实）**
 - [ ] 性能 **（颜适）**
 - [ ] 使用 LAVAS 快速搭建 PWA 站点 **(李文倩，若然）**
