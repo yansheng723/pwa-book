@@ -69,16 +69,16 @@
           - [ ] 离线注意事项
           - [ ] 后台同步
           - [ ] 消息推送
-  - [ ] Cache API
-  - [ ] IndexDB
-  - [ ] Service worker 缓存管理
-       - [ ] 常用缓存策略
-       - [ ] fetch API
-       - [ ] Service Worker 更新
-  - [ ] 如何在 SPA/MPA/SSR 中使用 Service Worker
-       - [ ] SPA/MPA
-       - [ ] SSR
-  - [ ] 使用 Workbox 快速编写 Service Worker
+     - [ ] Cache API
+     - [ ] IndexDB
+     - [ ] Service worker 缓存管理
+          - [ ] 常用缓存策略
+          - [ ] fetch API
+          - [ ] Service Worker 更新
+     - [ ] 如何在 SPA/MPA/SSR 中使用 Service Worker
+          - [ ] SPA/MPA
+          - [ ] SSR
+     - [ ] 使用 Workbox 快速编写 Service Worker
 - [ ] 用户留存**（唐雷）**
      - [ ] Web App Manifest 
           - [ ] credentials API
