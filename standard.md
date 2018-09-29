@@ -3,5 +3,8 @@
 ## 准备工作
 
 - 下载安装 [GitBook Editor]()
--  `clone` GitHub pwa-book 代码到本地
-`git clone `
+- GitHub 项目代码`clone`到本地
+`git clone https://github.com/lavas-project/pwa-book.git`
+
+----
+
