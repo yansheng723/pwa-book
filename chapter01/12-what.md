@@ -1,4 +1,4 @@
-# 1.2 什么是 PWA
+## 1.2 什么是 PWA
 
 Progressive Web App, 简称 PWA，是提升 Web App 的体验的一种新方法，能给用户原生应用的体验。
 
@@ -12,7 +12,7 @@ PWA 的主要特点包括下面三点：
 
 PWA 本身强调渐进式，并不要求一次性达到安全、性能和体验上的所有要求，开发者可以通过 [PWA Checklist](https://developers.google.cn/web/progressive-web-apps/checklist) 查看现有的特征。
 
-## 可靠
+### 可靠
 
 当用户打开我们站点时（从桌面 icon 或者从浏览器），通过 Service Worker 能够让用户在网络条件很差的情况下也能瞬间加载并且展现。
 
@@ -20,7 +20,7 @@ Service Worker 是用 JavaScript 编写的 JS 文件，能够代理请求，并�
 
 详细请看 [Service Worker 介绍](https://developers.google.cn/web/fundamentals/getting-started/primers/service-workers)。
 
-## 体验
+### 体验
 
 如果站点加载时间超过 3s，53% 的用户会放弃等待。页面展现之后，用户期望有平滑的体验，过渡动画和快速响应。
 
@@ -28,7 +28,7 @@ Service Worker 是用 JavaScript 编写的 JS 文件，能够代理请求，并�
 
 参考 [App Shell 设计规范](https://developers.google.cn/web/fundamentals/architecture/app-shell)。
 
-## 粘性
+### 粘性
 
 * PWA 是可以安装的，用户点击安装到桌面后，会在桌面创建一个 PWA 应用，并且不需要从应用商店下载
 
@@ -41,7 +41,7 @@ Web App Manifest 允许开发者控制 PWA 添加到桌面，允许定制桌面�
 参考 [Web App Manifest](https://developers.google.cn/web/fundamentals/engage-and-retain/web-app-manifest/?hl=zh-cn) 和 [Push Notification](https://developers.google.cn/web/fundamentals/engage-and-retain/push-notifications/?hl=zh-cn)。
 
 
-## 其他
+### 其他
 
 上面讲到 PWA 是兼具 Web App 和 Native App 的特征的，Web App 无版本问题、可索引也是很重要的特性。
 
