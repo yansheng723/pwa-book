@@ -9,7 +9,6 @@ App Shell ，从字面理解就是一个应用的外壳，即页面的一个基�
 ![](https://gss0.bdstatic.com/9rkZbzqaKgQUohGko9WTAnF6hhy/assets/pwa/projects/1515680651561/appshell.png)
 图2-1 App shell 架构示意图
 
-
 ### 2.1.2 App Shell 划分
 
 如图 2-1 所示，给出了一个基本的页面 App Shell， 它包含头部底部导航、侧边导航、内容区等，是对于一个应用来说相对不变或较稳定的结构。
