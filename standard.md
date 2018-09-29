@@ -60,15 +60,15 @@
           - [ ] 基本特性
           - [ ] https 与 service worker
           - [ ] service worker 在浏览器缓存中发生作用的时机（可与其他缓存对比）
-  - [ ] Service Worker 初探
-       - [ ] 生命周期
-       - [ ] 注册过程
-       - [ ] scope
-       - [ ] 编写一个基本的 service worker
-       - [ ] 常用调试方式
-       - [ ] 离线注意事项
-       - [ ] 后台同步
-       - [ ] 消息推送
+     - [ ] Service Worker 初探
+          - [ ] 生命周期
+          - [ ] 注册过程
+          - [ ] scope
+          - [ ] 编写一个基本的 service worker
+          - [ ] 常用调试方式
+          - [ ] 离线注意事项
+          - [ ] 后台同步
+          - [ ] 消息推送
   - [ ] Cache API
   - [ ] IndexDB
   - [ ] Service worker 缓存管理
