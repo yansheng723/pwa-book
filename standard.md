@@ -40,3 +40,62 @@
 ![](img/0.0.4.jpg)
 
 - 代码同步，点击屏幕右上角的`sync` ，也可以点击顶部导航`BOOK > Sync/pull/push`等做相应的操作，由于多人合作，切记代码要认真核对是否覆盖删除等，同步完成后可以查看 GitHub 验证自己的修改
+
+----
+
+## 目录及分工
+
+> 编写完毕后，在此处和[Github issue]()上同步进度。
+
+- [ ] PWA 介绍 **(陈永乐)**
+- [ ] 第一个 PWA 站点 **(刘若然)**
+- [ ]  设计与体验（重理念轻实战）**(王轶盛)**
+  - [ ] App Shell
+  - [ ] Skeleton
+  - [ ] 动画
+- [ ] 离线与缓存**(黄辉泉、淼江)**
+	- [ ] Service Worker 简介 
+	  - [ ] 简介
+	  - [ ] 发展史
+	  - [ ] 基本特性
+	  - [ ] https 与 service worker
+	  - [ ] service worker 在浏览器缓存中发生作用的时机（可与其他缓存对比）
+	- [ ] Service Worker 初探
+	  - [ ] 生命周期
+	  - [ ] 注册过程
+	  - [ ] scope
+	  - [ ] 编写一个基本的 service worker
+	  - [ ] 常用调试方式
+	  - [ ] 离线注意事项
+	  - [ ] 后台同步
+	  - [ ] 消息推送
+	- [ ] Cache API
+	- [ ] IndexDB
+	- [ ] Service worker 缓存管理
+	  - [ ] 常用缓存策略
+	  - [ ] fetch API
+	  - [ ] Service Worker 更新
+	- [ ] 如何在 SPA/MPA/SSR 中使用 Service Worker
+		- [ ] SPA/MPA
+		- [ ] SSR
+	- [ ] 使用 Workbox 快速编写 Service Worker
+- [ ] 用户留存**（唐雷）**
+	- [ ] Web App Manifest 
+    - [ ] credentials API
+    - [ ] Notification API
+- [ ] 安全**（ck）**
+- [ ] 性能**（颜适）**
+- [ ] 使用 LAVAS 快速搭建 PWA 站点**(李文倩，若然）**
+	- [ ] cli，安装，基本要求和构成
+	- [ ] 配置式构建
+    - [ ] 路由（自动生成+配置式）
+    - [ ] 中间件 **(若然)**
+    - [ ] 状态管理 **(若然)**
+	- [ ] PWA
+- [ ] 使用 lighthouse 检验站点 **(陈秋实)**
+- [ ] PWA 搜索生效 **(彭星)**
+	- [ ] PWA 与 SEO
+	- [ ] PWA 与 MIP 和 AMP
+- [ ] PWA 的未来 **(彭星)**
+	- [ ] 标准化的历程
+
