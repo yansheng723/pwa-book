@@ -54,13 +54,13 @@
   - [ ] Skeleton
   - [ ] 动画
 - [ ] 离线与缓存**(黄辉泉、淼江)**
-	- [ ] Service Worker 简介 
+  - [ ] Service Worker 简介 
 	  - [ ] 简介
 	  - [ ] 发展史
 	  - [ ] 基本特性
 	  - [ ] https 与 service worker
 	  - [ ] service worker 在浏览器缓存中发生作用的时机（可与其他缓存对比）
-	- [ ] Service Worker 初探
+  - [ ] Service Worker 初探
 	  - [ ] 生命周期
 	  - [ ] 注册过程
 	  - [ ] scope
@@ -69,16 +69,16 @@
 	  - [ ] 离线注意事项
 	  - [ ] 后台同步
 	  - [ ] 消息推送
-	- [ ] Cache API
-	- [ ] IndexDB
-	- [ ] Service worker 缓存管理
-	  - [ ] 常用缓存策略
+  - [ ] Cache API
+  - [ ] IndexDB
+  - [ ] Service worker 缓存管理
+  - [ ] 常用缓存策略
 	  - [ ] fetch API
 	  - [ ] Service Worker 更新
-	- [ ] 如何在 SPA/MPA/SSR 中使用 Service Worker
+  - [ ] 如何在 SPA/MPA/SSR 中使用 Service Worker
 		- [ ] SPA/MPA
 		- [ ] SSR
-	- [ ] 使用 Workbox 快速编写 Service Worker
+  - [ ] 使用 Workbox 快速编写 Service Worker
 - [ ] 用户留存**（唐雷）**
 	- [ ] Web App Manifest 
     - [ ] credentials API
