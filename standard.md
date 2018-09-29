@@ -55,20 +55,20 @@
   - [ ] 动画
 - [ ] 离线与缓存**(黄辉泉、淼江)**
   - [ ] Service Worker 简介 
-    - [ ] 简介
-    - [ ] 发展史
-	  - [ ] 基本特性
-	  - [ ] https 与 service worker
-	  - [ ] service worker 在浏览器缓存中发生作用的时机（可与其他缓存对比）
+       - [ ] 简介
+       - [ ] 发展史
+       - [ ] 基本特性
+       - [ ] https 与 service worker
+       - [ ] service worker 在浏览器缓存中发生作用的时机（可与其他缓存对比）
   - [ ] Service Worker 初探
-	  - [ ] 生命周期
-	  - [ ] 注册过程
-	  - [ ] scope
-	  - [ ] 编写一个基本的 service worker
-	  - [ ] 常用调试方式
-	  - [ ] 离线注意事项
-	  - [ ] 后台同步
-	  - [ ] 消息推送
+       - [ ] 生命周期
+       - [ ] 注册过程
+       - [ ] scope
+       - [ ] 编写一个基本的 service worker
+       - [ ] 常用调试方式
+       - [ ] 离线注意事项
+       - [ ] 后台同步
+       - [ ] 消息推送
   - [ ] Cache API
   - [ ] IndexDB
   - [ ] Service worker 缓存管理
