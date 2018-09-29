@@ -3,4 +3,5 @@
 ## 准备工作
 
 - 下载安装 [GitBook Editor]()
-- 同步GitHub 代码到本地
+-  `clone` GitHub pwa-book 代码到本地
+`git clone `
