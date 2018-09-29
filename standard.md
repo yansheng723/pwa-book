@@ -16,6 +16,7 @@
 
 ![](img/0.0.1.jpg)
 
+
 2. 点击顶部导航栏的`GitBook Editor > open`打开刚刚`clone`下来的`pwa-book`文件夹
 
 ![](img/0.0.2.jpg)
