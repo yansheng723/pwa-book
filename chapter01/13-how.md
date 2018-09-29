@@ -12,12 +12,6 @@ Service Worker 是 PWA 的功能关键所在，它是服务器端与浏览器端
 
 Service Worker 使得应用可以控制网络请求，可以缓存请求结果来提高性能，并对缓存资源提供离线访问方式。Service Worker 主要依靠 Fetch 和 Cache 这两个 API 来实现应用离线可用的功能，其中前者是获取网络资源的标准实现，后者是应用数据的持久化存储方式。需要强调的是，Cache 是持久化的，并且和浏览器缓存和网络状态没有关系。所以 Cache 也是 PWA 离线可用技术的关键。
 
-Service Worker 也是其他功能的基础，正是有了 Service Worker，以下功能才能发挥更大的作用：
-- Notifications API：使用操作系统本地的通知功能来向用户展示系统通知。
-- Push API：这个 API 可以让 PWA 订阅并接收服务器端的推送消息。推送消息会由 Service Worker 处理，可以用来更新本地状态，也可以用来展示系统通知。由于 Service Worker 的运行不依赖于应用本身，所以它可以在浏览器没有运行的时候接收消息通知。
-- Background Sync API：这个 API 可以在用户网络条件不好的时候收集用户需要发送的内容，然后等到网络条件良好的时候再发送。这个 API 还可以接收服务器的定时更新，从而使得应用可以在下次打开时进行更新操作。
-- Channel Messaging API：这个 API 让 Web Worker、Service Worker 和主应用可以互相传递消息。这个 API 可以用于新内容通知和软件更新等与用户有交互的操作。
-
 每一个 Service Worker 大致可分为 3 个生命周期：
 - 注册
 - 安装
@@ -34,3 +28,10 @@ Service Worker 安装的时候会触发一个 `install` 事件，所以在 Servi
 当新的 Service Worker 被激活的时候，一个 `activate` 事件会被触发。这个事件监听器非常有用，可以用来清理一些过时的缓存。
 
 Service Worker 是事件驱动的。安装和激活的时候会分别触发 `install` 和 `activate` 事件，此外还有其他事件 Service Worker 也能进行响应，比如 `fetch`、`push`、`sync` 和 `message` 等，其中 `message` 是 Service Worker 用来和其他脚本通信用的。
+
+Service Worker 也是其他功能的基础，正是有了 Service Worker，以下功能才能发挥更大的作用：
+- Notifications API：使用操作系统本地的通知功能来向用户展示系统通知。
+- Push API：这个 API 可以让 PWA 订阅并接收服务器端的推送消息。推送消息会由 Service Worker 处理，可以用来更新本地状态，也可以用来展示系统通知。由于 Service Worker 的运行不依赖于应用本身，所以它可以在浏览器没有运行的时候接收消息通知。
+- Background Sync API：这个 API 可以在用户网络条件不好的时候收集用户需要发送的内容，然后等到网络条件良好的时候再发送。这个 API 还可以接收服务器的定时更新，从而使得应用可以在下次打开时进行更新操作。
+- Channel Messaging API：这个 API 让 Web Worker、Service Worker 和主应用可以互相传递消息。这个 API 可以用于新内容通知和软件更新等与用户有交互的操作。
+
