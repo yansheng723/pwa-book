@@ -83,7 +83,7 @@
 	- [ ] Web App Manifest 
     - [ ] credentials API
     - [ ] Notification API
-- [ ] 安全**（ck）**
+- [ ] 安全**（ck & 陈秋实）**
 - [ ] 性能**（颜适）**
 - [ ] 使用 LAVAS 快速搭建 PWA 站点**(李文倩，若然）**
 	- [ ] cli，安装，基本要求和构成
