@@ -94,8 +94,8 @@
         - [ ] PWA
 - [ ] 使用 lighthouse 检验站点 **(陈秋实)**
 - [ ] PWA 搜索生效 **(彭星)**
-	- [ ] PWA 与 SEO
-	- [ ] PWA 与 MIP 和 AMP
+     - [ ] PWA 与 SEO
+     - [ ] PWA 与 MIP 和 AMP
 - [ ] PWA 的未来 **(彭星)**
 	- [ ] 标准化的历程
 
