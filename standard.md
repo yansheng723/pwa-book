@@ -80,9 +80,9 @@
        - [ ] SSR
   - [ ] 使用 Workbox 快速编写 Service Worker
 - [ ] 用户留存**（唐雷）**
-	- [ ] Web App Manifest 
-          - [ ] credentials API
-          - [ ] Notification API
+  - [ ] Web App Manifest 
+       - [ ] credentials API
+       - [ ] Notification API
 - [ ] 安全 **（ck & 陈秋实）**
 - [ ] 性能 **（颜适）**
 - [ ] 使用 LAVAS 快速搭建 PWA 站点 **(李文倩，若然）**
