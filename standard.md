@@ -72,9 +72,9 @@
   - [ ] Cache API
   - [ ] IndexDB
   - [ ] Service worker 缓存管理
-        - [ ] 常用缓存策略
-        - [ ] fetch API
-        - [ ] Service Worker 更新
+       - [ ] 常用缓存策略
+       - [ ] fetch API
+       - [ ] Service Worker 更新
   - [ ] 如何在 SPA/MPA/SSR 中使用 Service Worker
         - [ ] SPA/MPA
         - [ ] SSR
