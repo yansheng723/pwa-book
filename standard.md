@@ -10,7 +10,7 @@
 
 ----
 
-## 如何开发
+## 如何开发 & 注意事项
 
 - 打开 GitBook Editor 会提示登录，可以选择 GitHub 账号授权登录，或是`do that later`跳过登录
 
