@@ -1,4 +1,4 @@
-# 什么是 PWA
+# 1.2 什么是 PWA
 
 Progressive Web App, 简称 PWA，是提升 Web App 的体验的一种新方法，能给用户原生应用的体验。
 
