@@ -6,7 +6,8 @@
 
 即服务工作线程，是浏览器在后台独立于网页运行的脚本，它拦截浏览器的请求，返回缓存数据。现在，它们已包括如推送通知和后台同步等功能。将来，服务工作线程将会支持如定期同步或地理围栏等其他功能。
 
-图 3 --- 服务器浏览器桥梁图  
+图1-2 示意图
+![服务器浏览器桥梁图](http://omoi0oliz.bkt.clouddn.com/WX20180930-111804.png)
 
 Service Worker 是 PWA 的功能关键所在，它是服务器端与浏览器端之间的桥梁，PWA 的每一个网络请求都是经过它的处理再返回结果。另外，Service Worker 只能在 https 上运行。由于 Service Worker 可以拦截网络请求并修改网络应答，因此中间人攻击将难以实施。当然一般浏览器允许调试 Service Worker 的时候 host 为 localhost 或者 127.0.0.1 也是 ok 的。Service Worker 在不使用的时候会停止，然后在需要的时候会重新开启。所以如果有信息需要在两次 Service Worker 中进行传递时，推荐使用 IndexedDB 来保存数据，而不是使用全局变量。Service Worker 广泛使用了 Promise，所以使用者需要对 Promise 有一定的了解。
 
