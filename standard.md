@@ -12,7 +12,7 @@
 
 ## 如何开发 & 注意事项
 
-- 打开 GitBook Editor 会提示登录，可以选择 GitHub 账号授权登录，或是`do that later`跳过登录
+- 打开 GitBook Editor 会提示登录，可以选择 GitHub 账号授权登录，或是`do that later`跳过登录(Gitbook登录超出最大5人限制时，同步项目可以通过命令窗口的`pull` 和 `push` 来完成，和普通项目一样)
 
 ![](img/0.0.1.jpg)
 
