@@ -3,33 +3,64 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>第一个 PWA 站点</title>
 	<link rel="stylesheet" href="./style/main.css">
 </head>
 <body>
 
 	<header class="header-wrapper">
-		<div class="header-left">logo</div>
-		<div class="header-right">logo</div>
+		<div class="header-inner-wrapper">
+			<div class="header-left-logo">logo</div>
+			<div class="header-mid-name">商城首页</div>
+			<div class="header-right">more</div>
+		</div>
 	</header>
+
 	<section class="sidebar">
-		
+		<div class="return-home"></div>
+		<div class="menu-list"></div>
 	</section>
-	<section class="banner">
-		<div></div>
+
+	<section class="main">
+		<div class="banner">
+			banner1
+		</div>
+		<div class="main-menu-list">
+			<ul>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>	
+		</div>
+		<div class="main-product-list">			
+		</div>	
 	</section>
-	<section class="list-content">
-		
-	</section>
+
 	<footer class="footer-wrapper">
-		<div class="footer-wrapper-in">
-			<span class="footer-item">1</span>
-			<span class="footer-item">2</span>
-			<span class="footer-item">3</span>
-			<span class="footer-item">4</span>
+		<div class="footer-inner-wrapper">
+			<a href="#"><span class="footer-item">首页</span></a>
+			<a href="#"><span class="footer-item">我的</span></a>
+			<a href="#"><span class="footer-item">搜索</span></a>
+			<a href="#"><span class="footer-item">购物车</span></a>
 		</div>	
 	</footer>
 
+	<div class="loading">
+		<span>努力加载中……</span>
+	</div>
+<!-- 	<script>
+		window.onload = function () {
+			// TODO add service worker code here
+			if ('serviceWorker' in navigator) {
+				navigator.serviceWorker
+				    .register('./sw.js')
+				    .then(function() { console.log('Service Worker Registered'); });
+			}
+		}
+	</script>
+ -->
 
 	<script src="./script/app.js"></script>
 </body>
