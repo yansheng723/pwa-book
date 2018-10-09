@@ -20,7 +20,9 @@ html, body {
   color: #444;
 }
 
-
+html {
+  overflow: hidden;
+}
 
 header {
   padding: 0 20px;
@@ -30,6 +32,7 @@ header {
   top: 0;
   left: 0;
   background: #1976d2;
+  z-index: 99;
 }
 
   .header-inner-wrapper {
@@ -56,10 +59,28 @@ header {
       text-align: right;
     }
 
+.sidebar {
+  width: 70%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 1000;
+  background: #fff;
+  border-right: 1px solid #ccc;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.hide {
+  display: none;
+}
+
 .main {
-  padding-top: 60px;
+  padding-top: 0;
 }
   .banner {
+    margin-top: 60px;
     height: 200px;
     line-height: 200px;
     font-size: 40px;
@@ -85,6 +106,7 @@ footer {
   left: 0;
   border-top: solid 1px #eee;
   text-align: center;
+  z-index: 99;
 }
   .footer-inner-wrapper {
     display: flex;
