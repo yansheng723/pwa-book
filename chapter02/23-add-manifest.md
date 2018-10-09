@@ -14,8 +14,8 @@
 
 ``` json
 {
-  "name": "Weather", // Web App 名称
-  "short_name": "Weather",
+  "name": "PWA Shopping", // Web App 名称
+  "short_name": "PWA Shopping",
   "icons": [{ // 主屏幕显示的入口icon图片，多个大小供适配选择
     "src": "images/icons/icon-128x128.png",
       "sizes": "128x128",
