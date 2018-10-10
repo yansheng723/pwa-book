@@ -90,7 +90,7 @@
         }
       } else {
         // Return the initial home list since no data is available.
-        app.updateTemplate(initialData.data.list, templateName);
+        app.updateTemplate(initialHomeListData.data.list, templateName);
       }
     };
     app.showLoading();
