@@ -1,5 +1,5 @@
 /**
- *  app.js 页面主要的时间监听及处理
+ *  app.js 页面jsx相关处理
  * 
  * 
  */
@@ -14,7 +14,7 @@
 		homeListTemplate: document.querySelector('.main-list-item')
 	};
 
-	var initialData = {
+	var initialHomeListData = {
 		"status": 0,
 		"errMsg": "",
 		"data": {
@@ -27,6 +27,10 @@
 		}
 	};
 
+
+/*******************
+ * 事件监听
+ *******************/
 	// sidebar btn
 	document.querySelector('.icon-category').addEventListener('click', function () {
 		app.openSidebar();
@@ -46,27 +50,13 @@
 	})
 
 
+/*******************
+ * 函数方法
+ *******************/
+
 	app.refresh = function () {
 		var url = 'https://boscdn.baidu.com/assets/pwabook/mock/homelist/mockData.json';
   	app.getData(url, 'homeListTemplate');
-	}
-
-	app.openSidebar = function () {
-
-		if (app.sidebarShow) return;
-		document.querySelector('.mask').classList.remove('hide');
-		document.querySelector('.sidebar').classList.remove('hide');
-		app.sidebarShow = true;
-
-	}
-
-	app.closeSidebar = function () {
-
-		if (!app.sidebarShow) return;
-		document.querySelector('.mask').classList.add('hide');
-		document.querySelector('.sidebar').classList.add('hide');
-		app.sidebarShow = false;
-
 	}
 
 	app.getData = function(url, templateName) {
@@ -108,6 +98,12 @@
     request.send();
   };
 
+	/**
+	 * [updateTemplate 更新页面
+	 * @param  {[type]} data         获取的数据
+	 * @param  {[type]} templateName 数据对应模板名称
+	 * @return {[type]}              [description]
+	 */
   app.updateTemplate = function (data, templateName) {
 
   	if (templateName === 'homeListTemplate') {
@@ -125,9 +121,18 @@
   	}
   }
 
+	app.openSidebar = function () {
+		if (app.sidebarShow) return;
+		document.querySelector('.mask').classList.remove('hide');
+		document.querySelector('.sidebar').classList.remove('hide');
+		app.sidebarShow = true;
+	}
 
-	app.goSearch = function () {
-
+	app.closeSidebar = function () {
+		if (!app.sidebarShow) return;
+		document.querySelector('.mask').classList.add('hide');
+		document.querySelector('.sidebar').classList.add('hide');
+		app.sidebarShow = false;
 	}
 
 	app.showLoading = function () {
@@ -142,6 +147,11 @@
 		app.loadingShow = false;
 	}
 
+	app.goSearch = function () {
+
+	}
+
+	// 请求数据并更新
 	app.refresh();
 	
 })()
