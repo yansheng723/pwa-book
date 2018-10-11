@@ -147,10 +147,6 @@
 		app.loadingShow = false;
 	}
 
-	app.goSearch = function () {
-
-	}
-
 	// 请求数据并更新
 	app.refresh();
 	
