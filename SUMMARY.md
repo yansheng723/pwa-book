@@ -11,4 +11,8 @@
   * [2.1 App Shell 架构](chapter02/21-app-shell.md)
   * [2.2 Service Worker](chapter02/22-service-worker.md)
   * [2.3 添加手机桌面入口](chapter02/23-add-manifest.md)
+* [第3章 设计与体验](chapter03.md)
+  * [1.1 App Shell](chapter03/11-app-shell.md)
+  * 1.2 Skeleton
+  * 1.3 动画
 
