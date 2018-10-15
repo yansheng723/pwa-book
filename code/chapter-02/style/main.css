@@ -18,10 +18,15 @@ html, body {
   font-weight: 400;
   font-display: optional;
   color: #444;
+  background: #eee
 }
 
 html {
-  overflow: hidden;
+  /*overflow: hidden;*/
+}
+
+.hide {
+  display: none;
 }
 
 header {
@@ -67,10 +72,11 @@ header {
   z-index: 1000;
   background: #fff;
   border-right: 1px solid #ccc;
-  position: absolute;
+  position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
+  transition: left .5s;
 }
   .sidebar-header {
     height: 150px;
@@ -90,7 +96,6 @@ header {
     }
 
       i {
-        display: inline-block;
         margin-right: 20px;
       }
 
@@ -99,13 +104,13 @@ header {
         height: 60px;
         line-height: 60px;
       }
-
-.hide {
-  display: none;
+.sidebar.hide {
+  display: block;
+  left: -70%;
 }
 
 .main {
-  padding-top: 70px;
+  /*padding-top: 70px;*/
 }
   .banner {
     margin-top: 60px;
@@ -118,11 +123,16 @@ header {
     border: solid 1px #eee;
     color: #ccc;
   }
+  .main-list {
+    margin-top: 70px;
+    margin-bottom: 100px;
+  }
 
   .main-list-item {
+    background: #fff;
     padding: 10px 0;
     width: 90%;
-    margin: 0 auto;
+    margin: 10px auto;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
   }
     img {
@@ -152,6 +162,7 @@ footer {
   border-top: solid 1px #eee;
   text-align: center;
   z-index: 99;
+  background: #fff;
 }
   .footer-inner-wrapper {
     display: flex;
@@ -179,4 +190,5 @@ footer {
   right: 0;
   background: rgba(0, 0, 0, 0.5);
   z-index: 500;
+  transition: opacity .5s
 }

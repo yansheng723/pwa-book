@@ -5,6 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>第一个 PWA 站点</title>
+	<link rel="manifest" href="./manifest.json">
 	<link rel="stylesheet" href="./style/fonts/iconfont.css">
 	<link rel="stylesheet" href="./style/main.css">
 </head>
@@ -45,16 +46,16 @@
 	</section>
 
 	<section class="main">
-		<ul>
+		<!-- <div class="banner"></div> -->
+		<ul class="main-list">
 			<li class="main-list-item ripple">
 				<a href="#" class="main-list-a">
-					<img src="https://rukminim1.flixcart.com/image/300/300/watch/a/3/h/ad214-casio-original-imaer2c4hmdxkwqx.jpeg?q=70" alt="">
+					<img src="" alt="">
 					<div class="main-list-detail">
-						<h3> Apple Smartwatches </h3>
-						<p>$ 300.00</p>
-						<p>Swimproof|Alitmeter|GPS</p>
+						<h3 class="name"></h3>
+						<p class="price"></p>
+						<p class="decs"></p>
 					</div>
-					
 				</a>
 			</li>
 		</ul>
@@ -74,8 +75,7 @@
 	<div class="loading">
 		<span>努力加载中……</span>
 	</div>
-
-<!-- 	<script>
+	<script>
 		window.onload = function () {
 			// TODO add service worker code here
 			if ('serviceWorker' in navigator) {
@@ -86,8 +86,7 @@
 			    });
 			}
 		}
-	</script> -->
-
+	</script>
 	<script src="./script/app.js"></script>
 </body>
 </html>

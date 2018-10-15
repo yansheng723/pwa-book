@@ -1,29 +1,29 @@
 {
-  "name": "PWA Shopping",
-  "short_name": "PWA Shopping",
+  "name": "PWA Shopping Time",
+  "short_name": "Shopping Time",
   "icons": [{
-    "src": "assets/images/icons/icon-128x128.png",
+    "src": "assets/images/icons/icon1_28x128.png",
       "sizes": "128x128",
       "type": "image/png"
     }, {
-      "src": "assets/images/icons/icon-144x144.png",
+      "src": "assets/images/icons/icon_144x144.png",
       "sizes": "144x144",
       "type": "image/png"
     }, {
-      "src": "assets/images/icons/icon-152x152.png",
+      "src": "assets/images/icons/icon_152x152.png",
       "sizes": "152x152",
       "type": "image/png"
     }, {
-      "src": "assets/images/icons/icon-192x192.png",
+      "src": "assets/images/icons/icon_192x192.png",
       "sizes": "192x192",
       "type": "image/png"
     }, {
-      "src": "assets/images/icons/icon-512x512.png",
+      "src": "assets/images/icons/icon_512x512.png",
       "sizes": "256x256",
       "type": "image/png"
     }],
   "start_url": "/index.html",
   "display": "standalone",
-  "background_color": "#3E4EB8",
-  "theme_color": "#2F3BA2"
+  "background_color": "#fff",
+  "theme_color": "#1976d2"
 }
