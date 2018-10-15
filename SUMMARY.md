@@ -14,14 +14,6 @@
   * [2.4 添加到桌面](chapter02/24-add-manifest.md)
   * [2.5 消息推送](chapter02/25-web-push.md)
 * [第3章 设计与体验](chapter03.md)
-<<<<<<< a22feddc517102e562becbbab2423aab2a525b08
-  * [1.1 App Shell](chapter03/11-app-shell.md)
-  * [1.2 Skeleton](chapter03/12-skeleton.md)
-  * [1.3 动画](chapter03/13-dong-hua.md)
-
-=======
-  * [1.1 App Shell](chapter03/31-app-shell.md)
-  * 1.2 Skeleton
-  * 1.3 动画
->>>>>>> Updates chapter03/11-app-shell.md
-
+  * [3.1 App Shell](chapter03/31-app-shell.md)
+  * 3.2 Skeleton
+  * 3.3 动画
