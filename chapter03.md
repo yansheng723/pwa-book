@@ -22,4 +22,4 @@ PWA 的核心是提升 WEB 应用的用户体验，它包含的各类技术(如 
  <!-- 设计与体验（重理念轻实战）(王轶盛)
  App Shell
  Skeleton
- 动画 -->
+ 动画(https://developers.google.com/web/fundamentals/design-and-ux/animations/) -->
