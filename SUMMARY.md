@@ -13,6 +13,6 @@
   * [2.3 添加手机桌面入口](chapter02/23-add-manifest.md)
 * [第3章 设计与体验](chapter03.md)
   * [1.1 App Shell](chapter03/11-app-shell.md)
-  * 1.2 Skeleton
-  * 1.3 动画
+  * [1.2 Skeleton](chapter03/12-skeleton.md)
+  * [1.3 动画](chapter03/13-dong-hua.md)
 
