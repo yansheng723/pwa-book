@@ -10,7 +10,8 @@ App Shell 架构是构建 PWA 的一种推荐的方式，这种应用能可靠�
 App Shell，从字面理解就是一个 App 的外壳部分，即页面的一个基本结构，如图 3-1 所示。
 
 ![](https://gss0.bdstatic.com/9rkZbzqaKgQUohGko9WTAnF6hhy/assets/pwa/projects/1515680651561/appshell.png)
-图3-1 App Shell 架构示意图
+
+图 3-1 App Shell 架构示意图
 
 从概念上讲，App Shell 是 PWA 界面展现所需的最小资源，即支持用户界面所需的最小的 HTML、CSS 和 JavaScript，因此每个页面都需要加载这一部分。如果我们有办法把这部分主动缓存起来，就能够在加载页面时不再请求外壳，而只需要那些每个页面变化的主体内容即可，从而降低一些请求的流量和渲染的时间。
 
@@ -46,10 +47,21 @@ App Shell 模型的劣势主要源自于开发或者改造的成本，主要包�
 
 3. 配合 Service Worker 的缓存策略，可以做到离线支持，获取和本机 APP 类似的交互体验。
 
-### 3.1.4 App Shell 的例子
+### 3.1.4 App Shell 的案例分析
 
-这里列出几个线上的采用 App Shell 模型的例子，体验一下
+我们通过一个线上的采用 App Shell 模型的例子，来分析一下 App Shell 的效果。案例来自 [https://app-shell.appsport.com](https://app-shell.appsport.com)，这是由 Google 开发的一个 DEMO 性质的站点，目的就是为了演示 App Shell 的页面组成结构和加载效果。
+    
+图 3-2 可以看到，通过 Service Worker 配合，整个页面的外壳部分被缓存起来，在下次访问时由 Service Worker 取出并返回。如果把网络切换成离线 (Offline) 再进行刷新，页面依然能够正常展现，也是依赖了这些缓存。
+    
+![](http://boscdn.bpc.baidu.com/assets/lavas/book/app-shell.appspot.png)
 
-1. https://app-shell.appsport.com
+图 3-2 缓存中的 App Shell
 
-    这是由 Google 开发的一个 DEMO 性质的站点，目的就是为了演示 App Shell 的页面组成结构和加载效果。
+从性能上看，整个站点的首屏时间 (从开始加载到页面触发 `onload`) 是 500 ms 左右，但因为页面内容简单，这个值的大小不具有太多的参考意义。真正值得我们关注的是它渲染的顺序，如图 3-3 所示。
+
+![](http://boscdn.bpc.baidu.com/assets/lavas/book/app-shell.appspot-2.png)
+
+图 3-3 优先显示 Shell 部分内容
+
+在加载页面时，Shell 部分不通过网络请求直接从缓存中获取，因此速度比主体内容快得多，也优先展示。这对于用户来说无疑是一个特别良好的体验。
+
