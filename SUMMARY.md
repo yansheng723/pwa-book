@@ -3,7 +3,7 @@
 * [书写规范](standard.md)
 * [前言](README.md)
 * [第1章 PWA 介绍](chapter01.md)
-  * [1.1 why](chapter01/11-why.md)
+  * [1.1 原生应用还是 Web app](chapter01/11-why.md)
   * [1.2 what](chapter01/12-what.md)
   * [1.3 how](chapter01/13-how.md)
   * [1.4 future](chapter01/14-future.md)
