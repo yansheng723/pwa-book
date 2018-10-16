@@ -135,14 +135,18 @@ header {
     margin: 10px auto;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
   }
+    a {
+      margin-left: 0;
+      color: #444;
+    }
     img {
       /*height: 100px;*/
       display: inline-block;
-      width: 20%;
+      width: 100%;
       /*float: left;*/
     }
     .main-list-detail {
-      width: 70%;
+      width: 100%;
       display: inline-block;
       margin-left: 10px;
       text-align: left;

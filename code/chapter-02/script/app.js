@@ -19,7 +19,7 @@
 		"errMsg": "",
 		"data": {
 			"list": [{
-				"img": "https://rukminim1.flixcart.com/image/300/300/watch/a/3/h/ad214-casio-original-imaer2c4hmdxkwqx.jpeg?q=70",
+				"img": "https://boscdn.baidu.com/assets/pwabook/img/applewatch.jpg",
 				"name": "Apple Smartwatches",
 				"price": 300,
 				"description": "Swimproof|Alitmeter|GPS"
@@ -85,7 +85,6 @@
         if (request.status === 200) {
           var response = JSON.parse(request.response);
           var results = response.data.list;
-          app.hideLoading();
           app.updateTemplate(results, templateName);
         }
       } else {
@@ -93,7 +92,6 @@
         app.updateTemplate(initialHomeListData.data.list, templateName);
       }
     };
-    app.showLoading();
     request.open('GET', url);
     request.send();
   };
@@ -105,7 +103,7 @@
 	 * @return {[type]}              [description]
 	 */
   app.updateTemplate = function (data, templateName) {
-
+    app.hideLoading();
   	if (templateName === 'homeListTemplate') {
   		var container = document.querySelector('.main-list')
   		container.textContent = '';
@@ -148,6 +146,6 @@
 	}
 
 	// 请求数据并更新
-	app.refresh();
+	app.updateTemplate(initialHomeListData.data.list, 'homeListTemplate');
 	
 })()
