@@ -6,7 +6,7 @@
   * [1.1 原生应用还是 Web app](chapter01/11-why.md)
   * [1.2 什么是 PWA](chapter01/12-what.md)
   * [1.3 PWA 的核心内容](chapter01/13-how.md)
-  * [1.4 future](chapter01/14-future.md)
+  * [1.4 PWA 的发展](chapter01/14-future.md)
 * [第2章 第一个 PWA 站点](chapter02.md)
   * [2.1 App Shell 架构](chapter02/21-app-shell.md)
   * [2.2 Service Worker](chapter02/22-service-worker.md)
