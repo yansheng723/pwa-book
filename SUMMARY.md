@@ -8,11 +8,14 @@
   * [1.3 PWA 的核心内容](chapter01/13-how.md)
   * [1.4 PWA 的发展](chapter01/14-future.md)
 * [第2章 第一个 PWA 站点](chapter02.md)
-  * [2.1 App Shell 架构](chapter02/21-app-shell.md)
-  * [2.2 Service Worker](chapter02/22-service-worker.md)
-  * [2.3 添加手机桌面入口](chapter02/23-add-manifest.md)
+  * [2.1 环境准备](chapter02/21-start.md)
+  * [2.2 页面架构](chapter02/22-app-shell.md)
+  * [2.3 离线缓存](chapter02/23-service-worker.md)
+  * [2.4 添加到桌面](chapter02/24-add-manifest.md)
+  * [2.5 消息推送](chapter02/25-web-push.md)
 * [第3章 设计与体验](chapter03.md)
   * [1.1 App Shell](chapter03/11-app-shell.md)
-  * 1.2 Skeleton
-  * 1.3 动画
+  * [1.2 Skeleton](chapter03/12-skeleton.md)
+  * [1.3 动画](chapter03/13-dong-hua.md)
+
 

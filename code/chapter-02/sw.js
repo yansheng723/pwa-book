@@ -8,7 +8,13 @@ var filesToCache = [
   '/',
   '/index.html',
   '/script/app.js',
-  '/style/main.css'
+  '/style/main.css',
+  '/style/fonts/iconfont.css',
+  '/style/fonts/iconfont.eot',
+  '/style/fonts/iconfont.js',
+  '/style/fonts/iconfont.svg',
+  '/style/fonts/iconfont.ttf',
+  '/style/fonts/iconfont.woff'
 ];
 
 self.addEventListener('install', function(e) {
