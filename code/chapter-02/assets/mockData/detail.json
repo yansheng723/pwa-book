@@ -1,0 +1,14 @@
+{
+	"status": 0,
+	"errMsg": "",
+	"data": {
+		"detail": {
+			"img": "https://boscdn.baidu.com/assets/pwabook/img/applewatch.jpg",
+			"name": "Apple Smartwatches 00",
+			"url": "/",
+			"price": 300,
+			"id": 0,
+			"description": "Swimproof|Alitmeter|GPS"
+		}
+	}
+}
