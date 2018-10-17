@@ -6,7 +6,7 @@
  
 ### 2.2.1 App Shell
 
-如图 2-1 所示，在访问站点时能快速呈现页面的骨架，减少用户的白屏等待时间，其实这个页面骨架就是后面第三章节要详细讲解的 [App Shell]()。但是，单有一个 App Shell 骨架并不能实现快速返回呢？不难理解，这种方法依赖渐进式缓存 App Shell（使用服务工作线程）让应用运行。接下来，为使用 JavaScript 的每个页面加载动态内容。App Shell 非常适合用于在没有网络的情况下将一些初始 HTML 快速加载到屏幕上。
+如图 2-1 所示，在访问站点时能快速呈现页面的骨架，减少用户的白屏等待时间，其实这个页面骨架就是[App Shell]()，后面第三章节会详细讲解的 。但是，单有一个 App Shell 骨架并不能实现快速返回呢？不难理解，这种方法依赖渐进式缓存 App Shell（使用服务工作线程）让应用运行。接下来，为使用 JavaScript 的每个页面加载动态内容。App Shell 非常适合用于在没有网络的情况下将一些初始 HTML 快速加载到屏幕上。
 
 ![](https://gss0.bdstatic.com/9rkZbzqaKgQUohGko9WTAnF6hhy/assets/pwa/projects/1515680651561/appshell.png)
 图2-1 App shell 架构示意图
