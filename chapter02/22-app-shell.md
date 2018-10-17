@@ -8,8 +8,6 @@
 
 如图 2-1 所示，在访问站点时能快速呈现页面的骨架，减少用户的白屏等待时间，其实这个页面骨架就是[App Shell]()，是对于一个应用来说相对不变或较稳定的结构，后面第三章节设计与体验中会详细讲解。本示例中的 App Shell， 它包含头部导航、侧边导航、内容区等。
 
-
-
 ![](https://gss0.bdstatic.com/9rkZbzqaKgQUohGko9WTAnF6hhy/assets/pwa/projects/1515680651561/appshell.png)
 图2-1 App shell 架构示意图
 
