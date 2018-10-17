@@ -11,8 +11,6 @@
 ![](https://gss0.bdstatic.com/9rkZbzqaKgQUohGko9WTAnF6hhy/assets/pwa/projects/1515680651561/appshell.png)
 图2-1 App shell 架构示意图
 
-如图 2-1 所示，
-
 ### 2.2.1 离线缓存
 
 但是，单有一个 App Shell 骨架并不能实现快速返回呢？不难理解，这种方法依赖渐进式缓存 App Shell（使用服务工作线程）让应用运行。接下来，为使用 JavaScript 的每个页面加载动态内容。App Shell 非常适合用于在没有网络的情况下将一些初始 HTML 快速加载到屏幕上。
