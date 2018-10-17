@@ -4,7 +4,7 @@
  
 ### 2.1.1 引入 App Shell
 
-App Shell ，从字面理解就是一个应用的外壳，即页面的一个基本结构，如图 2-1 所示。从理论上讲，App Shell 是 PWA 界面展现所需的最小资源，即支持用户界面所需的最小的 HTML、CSS 和 JavaScript。我们希望在用户访问页面时，App shell 能迅速呈现在用户面前，并且不依赖网络的情况。这意味着并不是每次用户访问时都要从网络加载 App Shell， 只需要从网络中加载必要的内容。不难理解，这种方法依赖渐进式缓存 App Shell（使用服务工作线程）让应用运行。接下来，为使用 JavaScript 的每个页面加载动态内容。App Shell 非常适合用于在没有网络的情况下将一些初始 HTML 快速加载到屏幕上。
+如图 2-1 所示，在访问时快速访问页面的骨架，从理论上讲，App Shell 是 PWA 界面展现所需的最小资源，即支持用户界面所需的最小的 HTML、CSS 和 JavaScript。我们希望在用户访问页面时，App shell 能迅速呈现在用户面前，并且不依赖网络的情况。这意味着并不是每次用户访问时都要从网络加载 App Shell， 只需要从网络中加载必要的内容。不难理解，这种方法依赖渐进式缓存 App Shell（使用服务工作线程）让应用运行。接下来，为使用 JavaScript 的每个页面加载动态内容。App Shell 非常适合用于在没有网络的情况下将一些初始 HTML 快速加载到屏幕上。
 
 ![](https://gss0.bdstatic.com/9rkZbzqaKgQUohGko9WTAnF6hhy/assets/pwa/projects/1515680651561/appshell.png)
 图2-1 App shell 架构示意图
