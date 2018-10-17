@@ -11,7 +11,7 @@
   * [2.1 环境准备](chapter02/21-start.md)
   * [2.2 页面架构](chapter02/22-app-shell.md)
   * [2.3 离线缓存](chapter02/23-service-worker.md)
-  * [2.4 添加到桌面](chapter02/24-add-manifest.md)
+  * [2.4 用户粘性](chapter02/24-add-manifest.md)
 * [第3章 设计与体验](chapter03.md)
   * [1.1 App Shell](chapter03/11-app-shell.md)
   * [1.2 Skeleton](chapter03/12-skeleton.md)
