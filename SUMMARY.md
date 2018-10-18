@@ -17,6 +17,6 @@
   * 3.2 Skeleton
   * 3.3 动画
 * [第8章 使用 LAVAS 快速搭建 PWA 站点](di-8-zhang-shi-yong-lavas-kuai-su-da-jian-pwa-zhan-dian.md)
-  * [8.4 中间件](84-zhong-jian-jian.md)
+  * [8.4 中间件](84-lavas-middleware.md)
   * [8.5 状态管理](85-zhuang-tai-guan-li.md)
 
