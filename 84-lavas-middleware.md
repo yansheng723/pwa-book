@@ -12,7 +12,7 @@
 
 下面我们将介绍中间件的具体编写方法。
 
-## 中间件方法说明
+### 8.4.1 中间件方法说明
 
 编写中间件十分简单，需要创建一个单独文件，放在 `/middlewares` 文件夹下，其中暴露的中间件方法签名如下：
 ```javascript
@@ -43,7 +43,7 @@ export default function (context) {
 * 上下文对象定义在项目 `.lavas/middleware.js` 文件中的 `getClientContext/getServerContext` 方法内。这意味着开发者可以自由扩展这个上下文对象，挂载任意自定义属性在上面。
 * 具体调用这些中间件顺序运行的代码在客户端(`entry-client.js`)和服务端(`entry-server.js`)入口文件中。如果开发者需要扩展挂载的属性，可以这两处单独引入自定义的文件（注意只需基于 `.lavas/middleware.js` 文件，在 `getClientContext/getServerContext` 方法内添加即可）。
 
-## 中间件的声明
+### 8.4.2 中间件的声明
 
 中间件编写完毕，我们需要通过配置，声明实际想要使用的中间件。中间件的名称可以声明在以下两个地方：
 
