@@ -18,5 +18,5 @@
   * 3.3 动画
 * 第8章 使用 LAVAS 快速搭建 PWA 站点
   * [8.4 中间件](84-zhong-jian-jian.md)
-  * 8.5 状态管理
+  * [8.5 状态管理](85-zhuang-tai-guan-li.md)
 
