@@ -2,7 +2,7 @@
 
 页面快速响应主要集中解决两方面的问题，一个是减少正常访问的白屏等待时间，二是在断网和弱网情况下能够浏览已缓存的页面，避免白屏。
 
-主要依赖 App Shell 和 Service Worker 来实现。
+主要包含 App Shell 和 Service Worker 的支持。
  
 ### 2.2.1 App Shell
 
