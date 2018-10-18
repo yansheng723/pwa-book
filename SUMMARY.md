@@ -17,6 +17,6 @@
   * 3.2 Skeleton
   * 3.3 动画
 * [第8章 使用 LAVAS 快速搭建 PWA 站点](chapter08.md)
-  * [8.4 中间件](84-lavas-middleware.md)
-  * [8.5 状态管理](85-lavas-vuex.md)
+  * [8.4 中间件](chapter08/84-lavas-middleware.md)
+  * [8.5 状态管理](chapter08/85-lavas-vuex.md)
 
