@@ -11,7 +11,7 @@
   * [2.1 环境准备](chapter02/21-start.md)
   * [2.2 页面快速响应](chapter02/22-app-shell.md)
   * [2.3 用户粘性](chapter02/24-add-manifest.md)
-  * [2.4 相关工具](chapter02/24-xiang-guan-gong-ju.md)
+  * [2.4 相关工具](chapter02/24-tools.md)
 * [第3章 设计与体验](chapter03.md)
   * [1.1 App Shell](chapter03/11-app-shell.md)
   * [1.2 Skeleton](chapter03/12-skeleton.md)
