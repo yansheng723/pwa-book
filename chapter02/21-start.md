@@ -4,7 +4,7 @@
 
 ### 2.1.1 代码准备
 
-本书的内容和是咧代码均托管在GitHub上：
+本书的内容和示例代码均托管在GitHub上：
 代码地址： 
 
 ![](https://gss0.bdstatic.com/9rkZbzqaKgQUohGko9WTAnF6hhy/assets/pwa/projects/1515680651561/appshell.png)
