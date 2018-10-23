@@ -19,23 +19,23 @@ Lighthouse 是一个开源的自动化工具，能够对 WebApp 多方面的效�
 
 安装 [Ligthouse Chrome 插件](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk)
 
-打开需要进行审查的页面，并点击 Chrome 工具栏上的 Lighthouse 图标 ![icon](./img/9.0.1.png)
+打开需要进行审查的页面，并点击 Chrome 工具栏上的 Lighthouse 图标 ![icon](../img/9.0.1.png)
 
 如果在工具栏上没有看到此图标，它可能隐藏在 Chrome 的主菜单中。
 
 点击此图标后，我们会看到一个展开菜单，如下图
 
-![menu](./img/9.0.2.png)
+![menu](../img/9.0.2.png)
 
 在 `Options` 选项里，可以选择需要的审查项。
 
-![menu](./img/9.0.3.png)
+![menu](../img/9.0.3.png)
 
 点击 Generate report 按钮以针对当前打开的页面运行 Lighthouse 测试。
 
 在完成审查后，Lighthouse 将打开一个新标签，并在页面的结果上显示一个报告。
 
-![report](./img/9.0.4.png)
+![report](../img/9.0.4.png)
 
 在这里，我们就能看到关于 PWA, Performance, Accessibility, Best Practices 四个方面存在的问题以及相关建议。根据这些去优化你的站点吧！
 
@@ -43,7 +43,7 @@ Lighthouse 是一个开源的自动化工具，能够对 WebApp 多方面的效�
 
 在最新版本的 Chrome 浏览器中，Lighthouse 已经直接集成到了调试工具 DevTools 中了，因此不需要进行任何安装或下载。我们先打开需要进行测试的页面，打开 Chrome DevTools，选择 `Audits` 面板，就能看到 Lighthouse 工具的一些配置选项，选择需要的配置后，点击 `Run audits`，工具就会对当前页面进行性能的测评。
 
-![menu](./img/9.0.0.png)
+![menu](../img/9.0.0.png)
 
 ### 命令行工具
 
